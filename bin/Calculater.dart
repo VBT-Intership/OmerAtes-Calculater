@@ -7,8 +7,6 @@ class Calculater extends Operations{
   void selectOptionsType(int type) {
     super.selectOptionsType(type);
   }
-
-//Karşılama mesajı
   void startScreen() {
     return print("Hoşgeldiniz. Lütfen 2 adet sayı giriniz.");
   }
